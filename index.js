@@ -1,26 +1,25 @@
 const fs = require('fs');
 
 // beautifies the given object with indending of 4 spaces by default.
-var beautify = (obj, tab) => JSON.stringify(obj, null, tab);
+var beautify = (obj, tab) => {
+    let indend = (tab === undefined) ? 4 : tab;
+    return JSON.stringify(obj, null, indend);
+};
 
 // prints the beautified object to console.
-var pretify = (obj, tab = 4) => console.log(beautify(obj, tab));
+var pretify = (obj, tab) => console.log(beautify(obj, tab));
 
 // prints the beautified object to a file.
-// filename can be given as argument, appending(optional)
+// arguments are 'object' to be pretified, filename, append(optional). By default appending is false.
 var toFile = (obj, fileName, append) => {
 
-    // console.log("came here", fileName === undefined);
-    if(obj === undefined) return console.log("Please specify a file name.");
+    if(obj === undefined) return console.log("Please pass the object to pretify.");
     if(fileName === undefined) return console.log("Please specify a file name.");
 
-    console.log("hsdhafsh");
-    let item = beautify(obj);
-
-    fs.writeFile(fileName, obj, (err) => {
-        if(err) throw err;
-        console.log("Data written to file");
-    });
+    console.log("---------------------------------------");
+    fs.writeFileSync(fileName, beautify(obj));
+    console.log("\t Data successfully written to file.");
+    console.log("---------------------------------------");
 };
 
 module.exports = {
