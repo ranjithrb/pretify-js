@@ -1,0 +1,19 @@
+{
+  "name": "pretify-js",
+  "version": "1.0.0",
+  "description": "Beautifies js objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjith-exp/pretify-js.git"
+  },
+  "author": "Ranjith R Bhat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranjith-exp/pretify-js/issues"
+  },
+  "homepage": "https://github.com/ranjith-exp/pretify-js#readme"
+}
