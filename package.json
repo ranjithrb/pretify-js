@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+      "js-beautify",
+      "json-beautify",
+      "beautify",
+      "pretify",
+      "beautify-js-object"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ranjith-exp/pretify-js.git"
