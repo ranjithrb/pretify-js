@@ -1,11 +1,14 @@
 {
   "name": "pretify-js",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Beautifies js objects",
   "main": "index.js",
   "scripts": {
     "test": "node index.spec.js"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
       "js-beautify",
       "json-beautify",

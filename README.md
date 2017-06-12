@@ -3,7 +3,7 @@
 Pretifies javascript object given as arguments.
 
 # Prerequisite
-Node version 6.x.x or above.
+Node version 6.9.2 or above.
 
 # Usage
 
