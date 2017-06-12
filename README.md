@@ -1,6 +1,6 @@
 # pretify-js
 
-#Pretifies javascript object given as arguments.
+# Pretifies javascript object given as arguments.
 
 1. Requiring the module
     * **const p = require('pretify-js')**
