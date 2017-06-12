@@ -2,6 +2,9 @@
 
 Pretifies javascript object given as arguments.
 
+# Prerequisite
+Node version 6.x.x or above.
+
 # Usage
 
 npm install --save-dev pretify-js
