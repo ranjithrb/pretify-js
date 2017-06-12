@@ -2,7 +2,7 @@
 
 Pretifies javascript object given as arguments.
 
-#Usage
+# Usage
 
 npm install --save-dev pretify-js
 
