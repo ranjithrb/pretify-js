@@ -10,7 +10,7 @@ Node version 6.x.x or above.
 ` npm install --save-dev pretify-js`
 
 1. Requiring the module
-    * **const p = require('pretify-js')**
+    ` **const p = require('pretify-js')** `
 
 2. Pretify an array or js object or combination of both.
     * The object is passed as the first argument followed indending space which is optional. By default indend is by 4 spaces.
