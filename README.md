@@ -7,7 +7,7 @@ Node version 6.x.x or above.
 
 # Usage
 
-npm install --save-dev pretify-js
+> npm install --save-dev pretify-js
 
 1. Requiring the module
     * **const p = require('pretify-js')**
