@@ -6,3 +6,6 @@ node_js:
     - "6.9.2"
     - "7"
     - "8"
+deploy:
+    on: 
+        branch: master
