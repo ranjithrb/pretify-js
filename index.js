@@ -4,6 +4,7 @@ const fs = require('fs');
 var beautify = (obj, tab) => {
     let indend = (tab === undefined) ? 4 : tab;
     return JSON.stringify(obj, null, indend);
+    // add
 };
 
 // prints the beautified object to console.
