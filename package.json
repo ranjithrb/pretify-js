@@ -30,12 +30,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ranjith-exp/pretify-js.git"
+    "url": "git+https://github.com/ranjithrb/pretify-js.git"
   },
   "author": "Ranjith R Bhat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ranjith-exp/pretify-js/issues"
+    "url": "https://github.com/ranjithrb/pretify-js/issues"
   },
-  "homepage": "https://github.com/ranjith-exp/pretify-js#readme"
+  "homepage": "https://github.com/ranjithrb/pretify-js#readme"
 }
