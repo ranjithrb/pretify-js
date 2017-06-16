@@ -25,6 +25,6 @@ var toFile = function(obj, fileName, append) {
 };
 
 module.exports = {
-    pretify,
-    toFile
+    pretify : pretify,
+    toFile : toFile
 };
