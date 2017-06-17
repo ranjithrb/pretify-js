@@ -1,0 +1,11 @@
+language: 'node_js'
+node_js:
+    - "0"
+    - "4"
+    - "5"
+    - "6.9.2"
+    - "7"
+    - "8"
+deploy:
+    on: 
+        branch: master
