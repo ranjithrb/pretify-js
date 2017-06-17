@@ -2,4 +2,4 @@ language: 'node_js'
 deploy:
   provider: npm
   api_key: _npmToken
-  email: ranjith0072007@gmail.com
+  email: 'ranjith0072007@gmail.com'
