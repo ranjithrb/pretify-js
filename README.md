@@ -1,5 +1,5 @@
 [![Travis](https://img.shields.io/travis/ranjithrb/pretify-js.svg?style=flat-square)](https://travis-ci.org/ranjithrb/pretify-js)
-[![node](https://img.shields.io/node/v/gh-badges.svg?style=flat-square)]()
+![node](https://img.shields.io/node/>0.10/gh-badges.svg?style=flat-square)
 
 # pretify-js
 
