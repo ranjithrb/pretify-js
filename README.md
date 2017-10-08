@@ -2,11 +2,11 @@
 
 # pretify-js
 
-Pretifies javascript object given as arguments. 
+Pretifies the javascript object given as arguments.
 
 # Usage
 
-` npm install --save-dev pretify-js`
+`npm install --save-dev pretify-js`
 
 1. Requiring the module
 	**`var p = require('pretify-js')`**

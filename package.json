@@ -1,32 +1,35 @@
 {
   "name": "pretify-js",
-  "version": "1.1.8",
+  "version": "1.2.0",
   "description": "Beautifies js objects",
   "main": "index.js",
   "scripts": {
     "test": "node index.spec.js"
   },
+  "bin": {
+    "pretify": "bin/pretify.js"
+  },
   "files": [
     "index.js"
   ],
   "keywords": [
-      "js-beautify",
-      "json-beautify",
-      "beautify",
-      "pretify",
-      "beautify-js-object",
-      "pretty",
-      "stringify-json",
-      "pretty-js",
-      "pretty-object",
-      "pretty-json",
-      "style-json",
-      "js-format",
-      "format-json",
-      "js",
-      "json",
-      "object",
-      "stringify-object"
+    "js-beautify",
+    "json-beautify",
+    "beautify",
+    "pretify",
+    "beautify-js-object",
+    "pretty",
+    "stringify-json",
+    "pretty-js",
+    "pretty-object",
+    "pretty-json",
+    "style-json",
+    "js-format",
+    "format-json",
+    "js",
+    "json",
+    "object",
+    "stringify-object"
   ],
   "repository": {
     "type": "git",
@@ -37,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/ranjithrb/pretify-js/issues"
   },
-  "homepage": "https://github.com/ranjithrb/pretify-js#readme"
+  "homepage": "https://github.com/ranjithrb/pretify-js#readme",
+  "dependencies": {
+    "yargs": "^9.0.1"
+  }
 }
