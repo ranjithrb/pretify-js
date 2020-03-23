@@ -42,6 +42,6 @@
   },
   "homepage": "https://github.com/ranjithrb/pretify-js#readme",
   "dependencies": {
-    "yargs": "^12.0.2"
+    "yargs": "^13.1.0"
   }
 }
